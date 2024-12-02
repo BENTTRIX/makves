@@ -1,0 +1,333 @@
+@media (max-width: 1650px) {
+  .header {
+    padding: 54px 160px 56px 160px;
+  }
+
+  .hero {
+    padding: 56px 160px 189px 160px;
+  }
+
+  .benefit {
+    padding: 85px 160px 130px 160px;
+  }
+
+  .manufacturers {
+    padding: 154px 160px 150px 160px;
+  }
+
+  .job {
+    padding: 100px 160px 180px 160px;
+  }
+
+  .questions {
+    padding: 155px 160px 90px 160px;
+  }
+
+  .footer {
+    padding: 60px 160px 60px 160px;
+  }
+}
+
+@media (max-width: 1515px) {
+  .header {
+    padding: 54px 80px 56px 80px;
+  }
+
+  .hero {
+    padding: 56px 80px 189px 80px;
+  }
+
+  .benefit {
+    padding: 85px 80px 130px 80px;
+  }
+
+  .manufacturers {
+    padding: 154px 80px 150px 80px;
+  }
+
+  .job {
+    padding: 100px 80px 180px 80px;
+  }
+
+  .questions {
+    padding: 155px 80px 90px 80px;
+  }
+
+  .footer {
+    padding: 60px 80px 60px 80px;
+  }
+}
+
+@media (max-width: 1440px) {
+
+  .header {
+    padding: 54px 20px 56px 20px;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .header__nav {
+    order: 3;
+    width: 100%;
+    padding-top: 24px;
+  }
+
+  .nav__list {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .hero {
+    padding: 56px 20px 189px 20px;
+  }
+
+  .hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .benefit {
+    padding: 85px 20px 130px 20px;
+  }
+
+  .manufacturers {
+    padding: 154px 20px 150px 20px;
+  }
+
+  .job {
+    padding: 100px 20px 180px 20px;
+  }
+
+  .questions {
+    padding: 155px 20px 90px 20px;
+  }
+
+  .footer {
+    padding: 60px 20px 60px 20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    min-width: 320px;
+  }
+
+  .benefit__list {
+    justify-content: center;
+  }
+  
+  .job__list {
+    justify-content: center;
+  }
+
+  .job__item {
+    min-width: 350px;
+    padding: 46px 40px 40px 65px;
+    background-image: none;
+    background-color: #0926C0;
+  }
+
+  .job__item--1 {
+    order: 1;
+  }
+  
+  .job__item--2 {
+    order: 2;
+  }
+  
+  .job__item--3 {
+    order: 3;
+  }
+  
+  .job__item--4 {
+    order: 6;
+  }
+  
+  .job__item--5 {
+    order: 5;
+  }
+  
+  .job__item--6 {
+    order: 4;
+  }
+
+  .accordion__details {
+    min-width: 320px;
+  }
+
+  .accordion__text {
+    min-width: 320px;
+  }
+
+  .footer__container {
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .footer__nav {
+    order: 3;
+    width: 100%;
+    padding-top: 24px;
+  }
+
+  .footer__list {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  
+}
+
+@media (max-width: 920px) {
+  .hero__title,
+  .benefit__title,
+  .manufacturers__title,
+  .job__title,
+  .questions__title {
+    font-size: 33px;
+  }
+  
+  .hero__dscr,
+  .benefit__dscr,
+  .manufacturers__text,
+  .job__dscr,
+  .accordion__title {
+    font-size: 18px;
+    
+  }
+  
+  .hero__title {
+    min-height: 75px;
+    margin-bottom: 25px;
+  }
+
+  .form__title {
+    transform: translateY(-25px);
+  }
+
+  .form__btn {
+    transform: translateX(47px);
+    width: 200px;
+  }
+
+  .manufacturers__slider {
+    justify-content: space-between;
+  }
+
+  .manufacturers__list {
+    gap: 40px;
+}
+
+  .manufacturers__item {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+  }
+
+  .job__btn {
+    width: 240px;
+  }
+
+  .footer__btn {
+    width: 240px;
+  }
+
+
+  .wave__svg--1 {
+    bottom: -5px;
+}
+
+  .wave__svg--2 {
+    top: -5px;
+  }
+}
+
+@media (max-width: 590px) {
+  .header,
+  .hero,
+  .benefit,
+  .manufacturers,
+  .job,
+  .questions,
+  .footer {
+    padding: 50px 5px;
+  }
+
+  .header {
+    padding: 50px 5px;
+  }
+
+  .header__logo {
+    margin-bottom: 10px;
+  }
+
+  .header__nav {
+    overflow: scroll;
+  }
+
+  .nav__list {
+    gap: 10px;
+  }
+
+  .hero__form {
+    min-width: 300px;
+    justify-content: center;
+  }
+
+  .form__btn {
+    transform: translateX(15px);
+  }
+
+  .hero__item {
+    padding-left: 35px;
+    font-size: 18px;
+  }
+
+  .hero__item::before {
+    left: 10px;
+  }
+
+  .benefit__card {
+    background-position: 80px 40px;
+  }
+
+  .job__item {
+    padding: 46px 20px 40px 75px;
+  }
+
+  .manufacturers__btn {
+    display: none;
+  }
+
+  .manufacturers__list {
+    overflow: scroll;
+    gap: 5px;
+  }
+
+  .wave__svg--2 {
+    top: 0px;
+}
+
+  .wave__svg--1 {
+    bottom: 0px;
+  }
+
+  .footer__logo {
+    margin-bottom: 10px;
+  }
+
+  .footer__nav {
+    overflow: scroll;
+  }
+
+  .footer__list {
+    gap: 10px;
+  }
+}
